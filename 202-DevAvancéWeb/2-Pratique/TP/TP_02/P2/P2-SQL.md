@@ -178,7 +178,8 @@
     ON cours.code = course_class.cours_id
     INNER JOIN minicampus.class
     ON class.id = course_class.class_id
-    WHERE class.nom='1TL2';
+    WHERE class.nom='1TL2'
+    ORDER BY cours.code;
     ```
 
   1. Pour chacune des "facultés", afficher ces informations précédées du nom de son "parent"
