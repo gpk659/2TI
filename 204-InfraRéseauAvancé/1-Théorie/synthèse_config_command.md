@@ -323,7 +323,7 @@ Les critères à prendre en compte pour déterminer ce switch :
 * on peut configurer le vtp en mode de configuration de vlan ou en mode de configuration globale (ici en global).
 
 * `vtp domain +domain-name`
-* `vtp mode +{server | transparent | client }` le serve envoie, le client recoit se synchronise et transmet et le transparent ne fait rien. (transparent permet de faire des modifs vlan en local sans affecter les autres et remet le compteur de changement à zéro).
+* `vtp mode +{server | transparent | client }` le `server` envoie, le `client` recoit se synchronise et transmet. Le `transparent` ne fait rien. (transparent permet de faire des modifs vlan en local sans affecter les autres et remet le compteur de changement à zéro).
 <a id="ether"></a>
 #### EtherChannel   
 * EtherChannel permet de faire de l'aggrégation de ports, càd considérer jusqu'à 8 liaison comme une seule (load-balancing, vitesse ++, ...).
